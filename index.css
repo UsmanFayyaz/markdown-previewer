@@ -50,3 +50,14 @@ body {
 *:first-child {
     margin-top: 0px;
 }
+
+#p{
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+#author {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
