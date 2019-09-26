@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Markdown Previewer</title>
-<script src="index.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<link rel="stylesheet" href="index.css"></link>
-</head>
-<body>
-<div>
-  <h1 id="title">Markdown Previewer</h1>
 
-  <div id="main-body">
-    <p id="title-editor">Editor</p>
-    <textarea rows="34" id="editor" onkeyup="getInput()"></textarea>
+<head>
+  <title>Markdown Previewer</title>
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+  </link>
+</head>
+
+<body>
+  <div>
+    <h1 id="title">Markdown Previewer</h1>
+
+    <div id="main-body">
+      <p id="title-editor">Editor</p>
+      <textarea rows="34" id="editor" onkeyup="getInput()"></textarea>
+    </div>
+
+    <div id="container">
+      <div>
+        <p id="title-previewer">Previewer</p>
+      </div>
+
+      <div id="preview">
+      </div>
+    </div>
   </div>
-  
-  <div id="container">
-    <div>
-      <p id="title-previewer">Previewer</p>
-    </div>
-    
-    <div id="preview">
-    </div>
-    </div>
-</div>
-<div id="author">
-  <p id="p">Designed and Coded by</p> <br />
-  <a href="https://github.com/UsmanFayyaz/markdown-previewer">Usman Fayyaz</a>
-</div>
+  <div id="author">
+    <p>Designed and Coded by <b>Usman Fayyaz</b>.</p> <br />
+    <a href="https://github.com/UsmanFayyaz/markdown-previewer">Link to github repository.</a>
+  </div>
 
 </body>
+
 </html>
